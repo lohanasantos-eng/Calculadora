@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora simples</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <main class="calculadora">
+    <h1>Calculadora</h1>
+
+    <output id="visor" aria-live="polite">0</output>
+
+    <div class="botoes">
+      <button type="button" data-acao="limpar" class="limpar">C</button>
+      <button type="button" data-acao="apagar">⌫</button>
+      <button type="button" data-acao="sinal">±</button>
+      <button type="button" data-operador="/" class="operador">÷</button>
+
+      <button type="button" data-numero="7">7</button>
+      <button type="button" data-numero="8">8</button>
+      <button type="button" data-numero="9">9</button>
+      <button type="button" data-operador="*" class="operador">×</button>
+
+      <button type="button" data-numero="4">4</button>
+      <button type="button" data-numero="5">5</button>
+      <button type="button" data-numero="6">6</button>
+      <button type="button" data-operador="-" class="operador">−</button>
+
+      <button type="button" data-numero="1">1</button>
+      <button type="button" data-numero="2">2</button>
+      <button type="button" data-numero="3">3</button>
+      <button type="button" data-operador="+" class="operador">+</button>
+
+      <button type="button" data-numero="0">0</button>
+      <button type="button" data-acao="decimal">,</button>
+      <button type="button" data-acao="igual" class="igual">=</button>
+    </div>
+
+    <p>Use os botões ou o teclado. Esc limpa.</p>
+  </main>
+</body>
+</html>
